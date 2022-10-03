@@ -20,7 +20,7 @@ class MindMap extends Component {
       toUpdate: true, // mmdata 업데이트가 필요한지 판단
       dTop: {}, // mmdata에서 세로 좌표가 가장 높은 데이터
       mmdata: {}, // 마인드맵 데이터
-      root: {}, // 위치 정보를 포함하는 mmdata
+      root: {}, // 위치 정보를 포함하는 mmdataa
       // showNodeContextMenu: false,
       // contextMenuX: 0,
       // contextMenuY: 0,
@@ -1185,11 +1185,9 @@ class MindMap extends Component {
         // }
       >
         {/* <img src={trash_icon} /> */}
-        <h3>123
-            </h3>
+        <h3>123</h3>
         {/* 여기 부터 마인드맵 네모 칸 시작! */}
         <svg ref={this.svgRef} className={svgClass} tabIndex="0">
-      
           <g ref={this.contentRef} id="content" />
         </svg>
         <div ref={this.dummyRef} id="dummy" />
